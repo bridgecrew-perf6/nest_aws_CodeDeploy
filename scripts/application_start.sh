@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #give permission for everything in the nest_ec2_actions directory
-sudo chmod -R 777 /home/ubuntu/nest_ec2_actions
+sudo chmod -R 777 /home/ec2-user/nest_ec2_actions
 
 #navigate into our working directory where we have all our github files
-cd /home/ubuntu/nest_ec2_actions
+cd /home/ec2-user/nest_ec2_actions
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	

@@ -1,4 +1,5 @@
 #!/bin/bash
+REPOSITORY=/home/ec2-user/nest_ec2_actions
 
 #give permission for everything in the nest_ec2_actions directory
 sudo chmod -R 777 /home/ec2-user/nest_ec2_actions
@@ -14,6 +15,6 @@ export NVM_DIR="$HOME/.nvm"
 #install node modules
 npm install
 npm run build
-npm run start:prod
+nest start
 #start our node app in the background
 node app.js > app.out.log 2> app.err.log < /dev/null & 

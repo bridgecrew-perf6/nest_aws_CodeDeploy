@@ -8,7 +8,6 @@ sudo chmod -R 777 /home/ec2-user/nest_ec2_actions
 cd /home/ec2-user/nest_ec2_actions
 
 #install node modules
-npm run build
 npm run start:prod
 #start our node app in the background
 node app.js > app.out.log 2> app.err.log < /dev/null & 

@@ -7,6 +7,6 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    return 'actions test timeout update';
+    return 'actions test timeout update & cd';
   }
 }

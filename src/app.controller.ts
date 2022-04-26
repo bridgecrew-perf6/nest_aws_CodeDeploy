@@ -7,6 +7,6 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    return 'cd/cd test!';
+    return '은승원 사랑해 by 성준';
   }
 }

@@ -4,11 +4,11 @@ files:
   - source: /
     destination: /home/ec2-user/nest_ec2_actions
 hooks:
-  ApplicationStop:
-    - location: scripts/application_stop.sh
+  BeforeInstall:
+    - location: scripts/before_install.sh
       timeout: 300
       runas: ec2-user
-  BeforeInstall:
+  AfterInstall:
     - location: scripts/before_install.sh
       timeout: 300
       runas: ec2-user

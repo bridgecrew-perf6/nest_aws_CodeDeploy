@@ -7,6 +7,6 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    return 'actions test timeout update & cd__ test!!!!  오후 4월 26일 오후 3시 18분 테스트';
+    return 'cd/cd test!';
   }
 }

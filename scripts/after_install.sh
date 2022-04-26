@@ -14,6 +14,6 @@ sudo pkill node
 REPOSITORY=/home/ec2-user/nest_ec2_actions
 cd $REPOSITORY
 
-sudo npm install
-sudo npm run build
-sudo npm run start:prod
+npm install
+npm run build
+npm run start:prod

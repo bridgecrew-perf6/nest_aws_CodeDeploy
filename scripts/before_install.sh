@@ -6,7 +6,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install 14
 
 # kill node
-pkill node
+sudo pkill node
 
 #create our working directory if it doesnt exist
 DIR="/home/ec2-user/nest_ec2_actions"

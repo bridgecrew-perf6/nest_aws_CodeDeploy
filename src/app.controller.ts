@@ -7,6 +7,6 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    return 'env : ' + this.configService.get('ENV_TEST');
+    return 'env : ' + this.configService.get('ENV_TEST') + ' -> ci/cd과연 될까?';
   }
 }
